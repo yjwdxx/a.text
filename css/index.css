@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+/*公用的样式*/
+.content{
+	width: 100%;
+	height: auto;
+	font:normal 15px/20px "微软雅黑" ;
+	color:#777777;
+}
+/*顶部导航*/
+/*connection*/
+.connection{
+     height: 50px;
+     border-bottom:1px solid #EFEFEF;
+     
+}
+.connection-pic{
+	height:50px;
+	position:relative;
+	top:0;
+	margin:0 auto;
+	float:left;
+}
+.connection-pic.left{
+	left:5%;
+}
+.connection-pic.right{
+	left:37%;
+}
+.connection-pic li{
+   height:50px;
+   float:left;
+}
+.pic{
+	width: 50px;
+    height: 50px;
+    float: left;
+    margin:0 auto;
+    border-left:1px solid #EFEFEF;
+    background: url(../img/sprite.png) no-repeat;
+}
+.pic.long {
+	width:220px;
+}
+.connection-pic li:last-child{
+	border-right:1px solid #EFEFEF;
+}
+.sina .pic{
+	background-position:2px 7px;
+}
+.tecent .pic{
+	background-position:3px -35px;
+}
+.wechat .pic{
+	background-position:2px -74px;
+}
+.person .pic{
+	background-position:2px -153px;
+}
+.phone .pic{
+	background-position:-35px 7px;
+}
+.email .pic{
+	background-position:-51px -36px ;
+}
+.search .pic{
+	background-position:2px -115px;
+}
+/*nav*/
+.nav{
+	height:80px;
+}
+.mainIcon{
+	width:205px;
+	height:80px;
+	position:relative;
+	left:63px;
+	float:left;
+	background: url(../img/sprite.png) no-repeat;
+	background-position:-50px -120px;
+}
+.navBar {
+	width:580px;
+	height:80px;
+	position:relative;
+	left:30%;
+	overflow:hidden;
+}
+.navBar a{
+	height:40px;
+	margin:20px 20px;
+	line-height:40px;
+	color:#777777;
+	text-decoration:none;
+	float:left;
+	
+}
+.navBar a:hover{
+	border-bottom:1px solid #e84c3d ;
+}
+/*header*/
+.container{
+	height: 120px;
+	background: url(../img/banner.jpg) no-repeat;
+	color:#fff;
+}
+.navTitle{
+	width:120px;
+	height:40px;
+	position:relative;
+	left:6%;
+	top:35%;
+	float:left;
+	font:normal 25px/40px "微软雅黑" ;
+}
+.breadNav{
+	width:200px;
+	height:40px;
+	position:relative;
+	left:71%;
+	top:40%;
+	float:left;
+
+}
+.breadNav-detial a{
+    margin:5px 5px; 
+	color:#fff;
+	text-decoration:none;
+	float:left;
+}
+.breadNav-detial .chosen{
+	color:#e84c3d;
+}
+.goRight{
+	width:20px;
+	height:20px;
+    background:url(../img/sprite.png) no-repeat;
+    background-position:-54px -88px;
+}
+/*整合营销具体内容*/
+.showTop
+{	height: 200px;
+}
+.showTop h2{
+	width:20%;	
+	padding-left:12px;
+	position:relative;
+	top:30%;
+	left:6%;
+	font-size:16px;
+	color:#e84c3d;
+	border-left:3px solid #e84c3d ;
+
+}
+.showTop p{
+	width:700px;
+	position:relative;
+	top:45%;
+	left:7%;
+}
+.showPic{
+    height:700px;
+    overflow:hidden;
+}
+.picBox{
+	margin:0 2%;
+	position:relative;
+	top:0;
+	left:10%;
+	overflow:hidden;
+}
+.showOne {
+	margin:0 2%;
+    float:left;
+}
+.showOne span{
+	display:block;
+	width:197px;
+	height:233px;
+	position:absolute;
+	opacity:0;
+	background:url(../img/heart.png) no-repeat center;
+	z-index:9999;
+}
+.showOne img{
+	border:6px solid #e84c3d;
+}
+.describe{
+	width:90%;
+	position:relative;
+	top:-70px;
+	left:13px;
+	padding-left:5px;
+	color:#fff;
+	border-left:3px solid #e84c3d;
+}
+.showOne:hover {
+	opacity:0.7;
+    cursor:pointer;
+}
+.showOne span:hover{
+	  opacity:1;
+}
+/*页脚*/
+.footerEnd{
+	padding:3% 0;
+	font-size:13px;
+	background:#2d2f31;
+
+}
+.footerEnd p{
+    padding:1% 8%;
+}
+.footerTop a{
+	color:#fff;
+	margin-right:10px;
+	padding-right:20px;
+	text-decoration:none;
+}
+.footerTop a:first-child{
+	border-right:3px solid #fff;
+}
+/* tecent的隐藏菜单 */
+.tecent-nav{
+	width:130px;
+	position:absolute;
+	top:50px;
+	z-index:9999;
+	display:none;
+}
+.tecent-navBox li{
+	width:100%;
+	height:100%;
+	border:1px solid #EFEFEF ;
+	background:#fff;
+
+}
+.tecent-navBox li:hover{
+	background:#e84c3d;
+}
+.tecent-nav a:last-child{
+   display:block;
+   height:50px;
+   text-decoration:none;
+   color:#2d2f31;
+}
+.tecent-nav span{
+	display:block;
+	padding-top:18px;
+}
+/*  微信二维码*/
+.wechat-ma{
+	position:absolute;
+	top:50px;
+	z-index:9999;
+    display:none;
+	
+}
+/* 放大的联系方式 */
+.big-phone{
+	position:absolute;
+	top:50px;
+	z-index:9999;
+	display:none;
+}
