@@ -4,14 +4,18 @@
 .content{
 	width: 100%;
 	height: auto;
+	margin:0 auto;
 	font:normal 15px/20px "微软雅黑" ;
 	color:#777777;
+
 }
 /*顶部导航*/
 /*connection*/
 .connection{
-     height: 50px;
+     height:20%;
+     overflow:hidden;
      border-bottom:1px solid #EFEFEF;
+/*      background:red; */
      
 }
 .connection-pic{
@@ -25,7 +29,9 @@
 	left:5%;
 }
 .connection-pic.right{
-	left:37%;
+	right:5%;
+    float:right;
+    
 }
 .connection-pic li{
    height:50px;
@@ -67,9 +73,9 @@
 	background-position:2px -115px;
 }
 /*nav*/
-.nav{
-	height:80px;
-}
+/* .nav{
+	background:red;
+} */
 .mainIcon{
 	width:205px;
 	height:80px;
@@ -77,14 +83,16 @@
 	left:63px;
 	float:left;
 	background: url(../img/sprite.png) no-repeat;
+/*     background:red; */
 	background-position:-50px -120px;
 }
 .navBar {
-	width:580px;
+/* 	width:580px; */
 	height:80px;
+/* 	float:left; */
 	position:relative;
 	left:30%;
-	overflow:hidden;
+/* 	overflow:hidden; */
 }
 .navBar a{
 	height:40px;
